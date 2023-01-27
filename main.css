@@ -1,0 +1,11 @@
+main.css
+body {
+  font-family: "Sofia", sans-serif;
+}
+body{background-color: #ffb6b9;}
+h1{ font-size: 50px; }
+.a{display: grid;
+	grid-template-columns: auto auto; }
+	h1{ padding-left: 350px; }
+	button{ color: #ffb6b9; }
+	body{margin-right: 150px;}
