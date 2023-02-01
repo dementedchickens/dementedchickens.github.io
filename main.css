@@ -10,4 +10,6 @@ h1{ font-size: 50px; }
 	h1{ padding-left: 350px; }
 	button{ color: #ffb6b9; }
 	body{margin-right: 150px;}
-.grid-item-3{padding-top: 65px;}
+.grid-item-3{padding-top: 65px;
+padding-left: 50px;}
+.grid-item-1{padding-left: 50px;}
