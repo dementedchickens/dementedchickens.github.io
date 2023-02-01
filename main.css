@@ -4,8 +4,10 @@ body {
 }
 body{background-color: #ffb6b9;}
 h1{ font-size: 50px; }
-.a{display: grid;
-	grid-template-columns: auto auto; }
+.grid-container{display: grid;
+	grid-template-columns: 35% 65%;
+	grid-template-rows: 50% 50%;}
 	h1{ padding-left: 350px; }
 	button{ color: #ffb6b9; }
 	body{margin-right: 150px;}
+.grid-item-3{padding-top: 65px;}
