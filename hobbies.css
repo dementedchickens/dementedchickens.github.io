@@ -17,6 +17,7 @@ grid-row-gap: 0px;
 grid-template-columns:40% 20% 20% 20%;
 grid-template-rows:50% 50%;
 padding-top: 150px; }
+.grid-item-5{ padding left: 50px; }
 .grid-item-6{ padding-top: 100px; }
 .grid-item-7{ padding-top: 100px; }
 .grid-item-8{ padding-top: 100px; }
