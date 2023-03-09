@@ -5,7 +5,7 @@
 <title>About Isabella Draxler</title>
 <link href="main.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-<script src="index.js"></script>
+
 </head>
 <style>
 body {
@@ -13,7 +13,8 @@ body {
 }
 </style>
 <body>
-	<script src="index.js"></script>
+
+
 	<h1>Isabella Draxler</h1>
 	<div class="grid-container">
 		<div class= "grid-item-1">
@@ -31,9 +32,21 @@ body {
 			<h2>More Pages</h2>
 			<button><p><a href="indexhobbies.html">Click Here For Some of My Hobbies</a></p></button>
 			<button> <p><a href="molly.html">Click Here For My Dog</a></p></button>
-			<p id="yes">click me:)</p>
-		</div>
-		
+	    <button id=yum><p>Click me :)</p>
 	</div>
 	</body>
+	<script>
+		const btn = document.getElementById("yum");
+
+function random(number) {
+  return Math.floor(Math.random() * (number + 1));
+}
+
+function changeBackground() {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  document.body.style.backgroundColor = rndCol;
+}
+
+btn.addEventListener("click", changeBackground);
+</script>
 	</html>
